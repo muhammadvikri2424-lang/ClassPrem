@@ -81,6 +81,27 @@ cards.forEach(card=>{
 
     });
 
+function daftarClassUp(){
 
+let nama = document.getElementById("nama").value;
+
+let usia = document.getElementById("usia").value;
+
+let program = document.getElementById("program").value;
+
+
+let pesan =
+"Halo ClassUp, saya ingin mendaftar kursus.%0A%0A" +
+"Nama: " + nama +
+"%0AUsia/Jenjang: " + usia +
+"%0AProgram: " + program;
+
+
+window.open(
+"https://wa.me/6281366929106?text=" + pesan,
+"_blank"
+);
+
+}
 
 });

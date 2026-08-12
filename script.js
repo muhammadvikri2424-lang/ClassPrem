@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     console.log("ClassUp Website Ready");
 
-
+});
     
 
 

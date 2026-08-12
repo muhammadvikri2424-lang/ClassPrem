@@ -8,28 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log("ClassUp Website Ready");
 
 
-    // tombol daftar
-
-    const buttons = document.querySelectorAll("button");
-
-
-    buttons.forEach(function(button){
-
-        button.addEventListener("click",function(){
-
-            alert(
-            "Terima kasih sudah memilih ClassUp! Tim kami akan menghubungi Anda."
-            );
-
-        });
-
-    });
-
-
-
-});
-
-
+    
 
 
 // Efek scroll navbar

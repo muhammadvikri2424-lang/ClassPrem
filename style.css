@@ -472,3 +472,92 @@ nav{
     }
 
 }
+/* WHY CLASSUP */
+
+
+.why-section{
+
+    background:white;
+
+}
+
+
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.why-card{
+
+    background:#fff8f8;
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+
+
+.why-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.1);
+
+}
+
+
+
+.why-icon{
+
+    font-size:45px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.why-card h3{
+
+    color:#a00000;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.why-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+
+
+@media(max-width:768px){
+
+    .why-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

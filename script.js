@@ -54,20 +54,18 @@ cards.forEach(card=>{
 
 
     card.addEventListener("mouseleave",()=>{
+    card.style.transform =
+    "translateY(0)";
+});
 
-        card.style.transform =
-        "translateY(0)";
+});   // TAMBAHKAN INI
 
-    });
 
 function daftarClassUp(){
 
 let nama = document.getElementById("nama").value;
-
 let usia = document.getElementById("usia").value;
-
 let program = document.getElementById("program").value;
-
 
 let pesan =
 "Halo ClassUp, saya ingin mendaftar kursus.%0A%0A" +

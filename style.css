@@ -18,17 +18,22 @@ body{
 
 
 
-/* HEADER */
+/* HEADER PREMIUM CLASSUP */
 
 header{
 
     width:100%;
-    padding:20px 8%;
+    padding:18px 8%;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
+
     background:white;
-    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.08);
+
     position:sticky;
     top:0;
     z-index:100;
@@ -36,29 +41,24 @@ header{
 }
 
 
+/* LOGO */
 
-.logo{
+.logo img{
 
-    font-size:34px;
-    font-weight:800;
-    color:#a40000;
-
-}
-
-
-.logo span{
-
-    color:#222;
+    width:130px;
+    height:auto;
 
 }
 
 
+
+/* MENU */
 
 nav{
 
     display:flex;
     align-items:center;
-    gap:25px;
+    gap:30px;
 
 }
 
@@ -66,34 +66,62 @@ nav{
 nav a{
 
     text-decoration:none;
+
     color:#333;
+
     font-weight:500;
 
+    transition:.3s;
+
 }
 
 
-button{
+nav a:hover{
 
-    background:linear-gradient(
-        135deg,
-        #8b0000,
-        #d00000
+    color:#b00000;
+
+}
+
+
+
+
+/* BUTTON HEADER */
+
+nav button{
+
+    background:
+
+    linear-gradient(
+    135deg,
+    #8b0000,
+    #d00000
     );
 
+
     color:white;
+
     border:none;
-    padding:13px 30px;
+
+    padding:13px 28px;
+
     border-radius:30px;
+
     font-weight:600;
+
     cursor:pointer;
+
+    transition:.3s;
 
 }
 
 
-button:hover{
+
+nav button:hover{
 
     transform:translateY(-3px);
-    box-shadow:0 10px 20px rgba(164,0,0,.3);
+
+    box-shadow:
+    0 10px 20px rgba(160,0,0,.3);
 
 }
 

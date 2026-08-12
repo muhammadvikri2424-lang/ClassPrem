@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:#fff8f8;
+    color:#333;
+
+}
+
+
+
+/* HEADER */
+
+header{
+
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    position:sticky;
+    top:0;
+    z-index:100;
+
+}
+
+
+
+.logo{
+
+    font-size:34px;
+    font-weight:800;
+    color:#a40000;
+
+}
+
+
+.logo span{
+
+    color:#222;
+
+}
+
+
+
+nav{
+
+    display:flex;
+    align-items:center;
+    gap:25px;
+
+}
+
+
+nav a{
+
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+
+}
+
+
+button{
+
+    background:linear-gradient(
+        135deg,
+        #8b0000,
+        #d00000
+    );
+
+    color:white;
+    border:none;
+    padding:13px 30px;
+    border-radius:30px;
+    font-weight:600;
+    cursor:pointer;
+
+}
+
+
+button:hover{
+
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(164,0,0,.3);
+
+}
+
+
+
+
+/* HERO */
+
+.hero{
+
+    min-height:650px;
+    padding:80px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:
+    linear-gradient(
+    120deg,
+    #720000,
+    #c40000
+    );
+
+    color:white;
+
+}
+
+
+
+.hero-text{
+
+    width:55%;
+
+}
+
+
+
+.hero h1{
+
+    font-size:55px;
+    line-height:1.2;
+    font-weight:800;
+
+}
+
+
+.hero h1 span{
+
+    color:#ffd700;
+
+}
+
+
+
+.hero p{
+
+    margin:25px 0;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+
+
+.hero-box{
+
+    width:350px;
+    height:350px;
+
+    border-radius:40px;
+
+    background:
+    rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    border:2px solid rgba(255,255,255,.3);
+
+}
+
+
+
+.hero-box h2{
+
+    font-size:60px;
+    color:#ffd700;
+
+}
+
+
+
+.hero-box p{
+
+    font-size:22px;
+
+}
+
+
+
+
+/* SECTION */
+
+section{
+
+    padding:80px 8%;
+
+}
+
+
+
+.title{
+
+    text-align:center;
+    font-size:40px;
+    font-weight:800;
+    color:#9b0000;
+    margin-bottom:50px;
+
+}
+
+
+
+
+/* CARD PROGRAM */
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:30px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    width:330px;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.08);
+
+    border-top:5px solid #b00000;
+
+    transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.card h3{
+
+    color:#a00000;
+    font-size:24px;
+    margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+    color:#666;
+    line-height:1.7;
+
+}
+
+
+
+
+/* FOOTER */
+
+
+footer{
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:35px;
+
+}
+
+
+
+
+/* RESPONSIVE MOBILE */
+
+
+@media(max-width:768px){
+
+
+header{
+
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+nav{
+
+    flex-wrap:wrap;
+    justify-content:center;
+
+}
+
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+
+.hero-text{
+
+    width:100%;
+
+}
+
+
+.hero h1{
+
+    font-size:38px;
+
+}
+
+
+
+.hero-box{
+
+    margin-top:40px;
+    width:280px;
+    height:280px;
+
+}
+
+
+
+.cards{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+
+.card{
+
+    width:100%;
+
+}
+
+
+}
